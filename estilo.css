@@ -4,3 +4,15 @@ body{
     border: 10px;
     height: 800px;
 }
+
+span{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+}
+
+div{
+    display: block;
+    width: 100px;
+    height: 300px;
+}
