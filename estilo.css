@@ -1,8 +1,9 @@
 body{
     width: 1280px;
     background-color: aqua;
-    height: 800px;
+    height: 800px;  /*780px utiles por los dos bordes de 10px*/
     border: 10px solid brown;
+    position: relative; 
 }
 
 span{
@@ -21,7 +22,7 @@ span{
 }
 
 div{
-    display: block;
+    display: inline-block;
     width: 100px;
     height: 300px;
     border-left: 10px solid #333;
@@ -33,4 +34,10 @@ div{
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom:40px ;
+}
+
+#gruñon{
+    position: absolute;
+    right: 20px;
+    top: 240px;/*780px del alto del body entre 2 menos 300px de alto de cada cama entre 2*/
 }
