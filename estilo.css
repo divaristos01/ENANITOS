@@ -1,7 +1,7 @@
 body{
     width: 1280px;
     background-color: aqua;
-    height: 800px;  /*780px utiles por los dos bordes de 10px*/
+    height: 800px;
     border: 10px solid brown;
     position: relative; 
 }
@@ -19,6 +19,7 @@ span{
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom:40px ;
+    float: right;
 }
 
 div{
@@ -34,15 +35,16 @@ div{
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom:40px ;
-    float: left;
+    float: right;
 }
 
-.bloque1{
-    float: none;
+#bloque1{
+    position: absolute;
+    z-index: 2;
 }
 
 #gruñon{
     position: absolute;
     right: 20px;
-    top: 240px;/*780px del alto del body entre 2 menos 300px de alto de cada cama entre 2*/
+    top: 240px;
 }
