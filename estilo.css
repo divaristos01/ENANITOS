@@ -3,6 +3,43 @@ body{
     height: 800px;
     margin: 0 auto;
     border: 10px solid brown;
+    align-items: center;
 }
 
+#bloque{
+    border: 10px solid black;
+    width: 1020px;
+    height: 350px;
+    margin: 20px;
+    margin-left: 90px;
+}
 
+#ventana{
+    border: 10px solid black;
+    height: 150px;
+    width: 50px;
+    top: 335px;
+    left: 327.5px;
+    position: absolute;
+}
+
+#puerta{
+    border: 10px solid black;
+    border-left: none;
+    height: 150px;
+    width: 50px;
+    right: 300px;
+    top: 335px;
+    position: absolute;
+}
+
+.cama{
+    width: 100px;
+    height: 300px;
+    border: 3px solid #654321;
+    background-color: #d2b48c;
+    text-align: center;
+    margin: 5px;
+    margin: 10px;
+    display: inline-block;
+}
