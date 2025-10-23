@@ -39,7 +39,12 @@ body{
     border: 3px solid #654321;
     background-color: #d2b48c;
     text-align: center;
-    margin: 5px;
-    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: inline-block;
 }
