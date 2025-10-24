@@ -12,7 +12,7 @@ body{
     height: 350px;
     margin: 20px;
     margin-left: 90px;
-    position: relative;/*Para que los bloques absolutos paratan a partir de este*/
+    position: relative;
 }
 
 #ventana{
@@ -52,6 +52,6 @@ body{
 
 #gruñon{
     position: absolute;
-    right: -180px;
-    top: 180px; 
+    right: 20px;
+    top: 0px;
 }
