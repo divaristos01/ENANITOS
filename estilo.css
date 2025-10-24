@@ -12,15 +12,16 @@ body{
     height: 350px;
     margin: 20px;
     margin-left: 90px;
+    position: relative;/*Para que los bloques absolutos paratan a partir de este*/
 }
 
 #ventana{
     border: 10px solid black;
     height: 150px;
     width: 50px;
-    top: 335px;
-    left: 327.5px;
-    position: absolute;
+    top: -475px;
+    left: -40px;
+    position: relative;
 }
 
 #puerta{
@@ -28,9 +29,9 @@ body{
     border-left: none;
     height: 150px;
     width: 50px;
-    right: 300px;
-    top: 335px;
-    position: absolute;
+    right: -1280px;
+    top: -640px;
+    position: relative;
 }
 
 .cama{
@@ -47,4 +48,10 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     display: inline-block;
+}
+
+#gruñon{
+    position: absolute;
+    right: -180px;
+    top: 180px; 
 }
